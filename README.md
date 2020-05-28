@@ -71,14 +71,3 @@ are scrolled left differently
 								power
 			(int) SHIELDTIME, startShield: keep track of how long the player is "in recovery"
 - method: invincible(), handleCollision(), printPlayer()
-
-Most Proud Implementation:
-- I think it's the different speed between the rockets and the lasers. It seems very easy
-to change but once you do that, it affects your populateRightEdge() and ScrollLeft(): it
-keeps updating the right edge even thought the laser has not moved yet (since the rocket moves
-faster). It took me a while to fix it using boolean variable. The same problem occurs with
-gravity. Since gravity does not necessarily move at the same speed as the other object, I have
-to try a lot of the numbers to make gravity seems real and playable. There were times when 
-gravity glitched too fast that it seems like the player teleport, and there were times when
-gravity had so little effect that the player fell down too slowly. I had to do a lot of 
-outside calculation to make it seem realistic.
