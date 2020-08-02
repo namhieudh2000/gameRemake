@@ -1,6 +1,6 @@
-[A preview of the game here](https://drive.google.com/file/d/1S7ropQEAG8q1laDaYKTHHfkvwuMwf_4v/view?usp=sharing)
+[A preview of the game here](https://drive.google.com/file/d/1AsMfVwt9fiznhK-vpGzj7PwPfZz4TwwY/view?usp=sharing)
 
-A simple recreation of Jetpack Joyride.
+This project is a simple recreation of Jetpack Joyride.
 
 Theme: the game is inspired by Halfbricks Studio's Jetpack Joyride game. All of the images
 were taken from the game itself. The player is a man using his jetpack to avoid obstacles 
